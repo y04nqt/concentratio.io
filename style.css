@@ -110,6 +110,7 @@ body{
     background-color: rgba(181, 181, 181, 0.61);
 }
 #three{
+    width: 90%;
     height: 40%;
     color: rgba(195, 198, 200, 0.85);
     padding-top: 1%;
