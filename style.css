@@ -49,22 +49,36 @@ body{
     text-align: left;
     border: none;
 }
-#one ul li:first-child:hover{
-    color: rgba(143, 238, 128, 0.85);
-}
+
 
 #one ul li{
 
     border-radius: 3px 0 0 3px;
-    background-color: rgba(170, 183, 218, 0.24);
-    font-size: 5vw;
+    /*background-color: rgba(170, 183, 218, 0.24);*/
+    font-size: 3vw;
     margin: 0 0 10px 0;
     text-align: right;
-    float: right;
-    width: 50%;
-    padding-right: 10%;
+    width: 40%;
+    padding-right: 15%;
     border: solid rgba(62, 62, 62, 0.93) 2px;
     border-right: none;
+    display: block;
+    float: right;
+    transition: all .5s;
+
+}
+#one ul li:hover{
+  font-size: 3.5vw;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#one ul li:nth-child(odd):hover{
+  font-size: 3.5vw;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+#one ul li:first-child:hover{
+    color: rgba(143, 238, 128, 0.85);
+    background-color: transparent;
+    font-size: 10vw;
 }
 
 #two{
