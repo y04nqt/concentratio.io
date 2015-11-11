@@ -1,0 +1,37 @@
+body{
+  width: 100%;
+  height: 100%;
+  .start-menu{
+    display: block;
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+
+    #hello_btn{
+      color: red;
+    }
+  }
+  .first-level{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(44, 231, 79, 0.7);
+
+    display: block;
+
+    h1{
+      font-size: 5vw;
+    }
+    #creatureBtn{
+      background-color: blue;
+    }
+    #bossBtn{
+      background-color: red;
+    }
+    #eatBtn{
+      background-color: #dddddd;
+    }
+    #drinkBtn{
+      background-color: #d342de;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  height: 100%; }
+  body .start-menu {
+    display: block;
+    background-color: blue;
+    width: 100%;
+    height: 200px; }
+    body .start-menu #hello_btn {
+      color: red; }
+  body .first-level {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(44, 231, 79, 0.7);
+    display: block; }
+    body .first-level h1 {
+      font-size: 5vw; }
+    body .first-level #creatureBtn {
+      background-color: blue; }
+    body .first-level #bossBtn {
+      background-color: red; }
+    body .first-level #eatBtn {
+      background-color: #dddddd; }
+    body .first-level #drinkBtn {
+      background-color: #d342de; }
+
+/*# sourceMappingURL=main.css.map */
