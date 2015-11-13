@@ -18,6 +18,7 @@ It is not a two player game. Concentration is not a game to switch between two p
 ##Technologies!
 
   1. Javascript
+     1. Jquery
   2. CSS
      1. SASS  
   3. HTML
