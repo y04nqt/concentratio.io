@@ -8,6 +8,8 @@ You click on a tile one at a time to achieve two matching tiles. However, there 
 
 Clicking one at a time achieves best results, and not clicking on a flipped tile again.
 
+It is not a two player game. Concentration is not a game to switch between two players. It could be done with two boards that switch, but that would be clunky and not fun. We need funs.
+
 ##Technologies!
 
   1. Javascript
