@@ -12,7 +12,7 @@ Clicking one at a time achieves best results, and not clicking on a flipped tile
 
   1. Javascript
   2. CSS
-    a. SASS  
+     1. SASS  
   3. HTML
   
 
