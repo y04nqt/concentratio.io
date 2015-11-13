@@ -30,7 +30,7 @@
 
 ## Page Info
 ---
-  #### *About me Page*
+#### About me Page
 
 
 - A simple about me web page to demonstrate  web skills
