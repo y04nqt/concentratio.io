@@ -1,0 +1,83 @@
+
+
+html,body{
+  background-image: url('../images/chicago-dark-streets copy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+
+  h1{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    color: white;
+  }
+  #theBoard{
+    margin: 0;
+    width: 80%;
+    height: auto;
+    border: 5px solid rgba(99, 99, 99, 0.85);
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+    top: 12.5%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    background-color: rgba(166, 166, 166, 0.2);
+    text-align: center;
+    overflow-y: auto;
+    transition: all 500ms linear;
+
+    &:hover{
+      border: 5px solid rgba(99, 99, 99, 0.99);
+      background-color: rgba(66, 66,  66, 0.5);
+
+      .tiles{
+        display: inline-block;
+        margin: 1.75% 2% 0 0;
+        padding: 5.5%;
+        vertical-align: middle;
+        font-size: 2.5em;
+        width: 8%;
+        height: 5%;
+        border: 2px solid rgb(63, 167, 233);
+        background-color: rgb(0, 0, 0);
+        opacity: .65;
+        color: rgba(0, 0, 0, 0);
+        transition: opacity 200ms linear;
+        &:hover{
+          background-color:  rgb(0, 0, 0);
+          opacity: .5;
+        }
+      }
+    }
+
+
+    .tiles{
+      display: inline-block;
+      margin: 1.75% 2% 0 0;
+      padding: 5.5%;
+      vertical-align: middle;
+      font-size: 2.5em;
+      width: 8%;
+      height: 5%;
+      border: 2px solid rgb(63, 167, 233);
+      background-color: rgb(0, 0, 0);
+      opacity: .1;
+      color: rgba(0, 0, 0, 0);
+      transition: opacity 200ms linear;
+      &:hover{
+        background-color:  rgb(0, 0, 0);
+        opacity: .5;
+      }
+    }
+  }
+}
